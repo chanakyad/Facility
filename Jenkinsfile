@@ -8,7 +8,7 @@ sh 'docker build -t facility .'
 sh 'docker images'
 stage("Deploy"){
 sh 'docker rm -f facility||true'
-sh ' docker run -d -p 9001:9001 --name facility facility'
+sh 'docker run -d -p 9001:9001 --name facility facility'
 }
 }
 }
