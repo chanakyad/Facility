@@ -1,6 +1,6 @@
 FROM maven:3.6.0-jdk-11 AS build
 
-LABEL maintainer = "Apurva Bansode"
+LABEL maintainer = "Chanakya"
 
 
 # Copy folder in docker
